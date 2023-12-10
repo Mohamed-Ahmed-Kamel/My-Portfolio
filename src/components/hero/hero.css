@@ -1,0 +1,63 @@
+/* Contents
+  1. Left section
+  2. Right section ==> image
+  3. 
+  4. 
+*/
+
+section.hero {
+  margin-top: 2rem;
+}
+
+/* 1. Left section */
+section.hero .left-section {
+  flex-grow: 1;
+}
+section.hero .parent-avatar.flex {
+  align-items: end;
+  gap: 0.4rem;
+}
+section.hero .avatar {
+  width: 80px;
+  border-radius: 50%;
+  border: 1px solid darkorange;
+  padding: 1px;
+  box-shadow: 1px 1px 10px orange;
+}
+section.hero .icon-verified {
+  color: var(--blue);
+  margin-bottom: 0.3rem;
+}
+section.hero h1.title {
+  font-size: 3rem;
+  margin: 20px 0;
+  color: var(--title);
+}
+section.hero p.subtitle {
+  font-size: 1rem;
+  margin-bottom: 30px;
+  color: var(--subtitle);
+  line-height: 1.35rem;
+}
+section.hero .icons {
+  gap: 1rem;
+}
+/* 2. Right section ==> image */
+section.hero .hero-image {
+  width: 19rem;
+}
+@media (max-width: 1000px) {
+  section.hero .hero-image {
+    width: 13rem;
+  }
+}
+@media (max-width: 800px) {
+  section.hero .hero-image {
+    width: 10rem;
+  }
+}
+@media (max-width: 700px) {
+  section.hero .hero-image {
+    display: none;
+  }
+}

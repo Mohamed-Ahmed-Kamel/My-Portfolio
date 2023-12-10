@@ -1,0 +1,202 @@
+.skills-section {
+  padding: 1rem;
+}
+.skills-section h1 {
+  font-size: 2.5rem;
+  color: var(--title);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.skills-section .skills-bar.flex {
+  justify-content: space-around;
+  align-items: start;
+  width: 100%;
+  padding: 1rem;
+}
+.skills-section .skills-bar.flex h2 {
+  color: var(--title);
+  text-align: center;
+}
+.skills-section .skills-bar.flex p {
+  color: var(--title);
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  margin-bottom: 0.2rem;
+}
+.skills-section .skills-bar.flex .skills-box {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background-color: var(--bg-header);
+  padding: 1rem;
+  width: 20rem;
+}
+.skills-section .skills-bar.flex .skill-container {
+  width: 100%;
+  background-color: var(--border);
+  border-radius: 5px;
+}
+
+.skills-section .skills-bar.flex .skills {
+  text-align: right;
+  padding: 3px;
+  color: black;
+  font-weight: 500;
+}
+
+.html {
+  width: 80%;
+  background-color: #f06529;
+  border-radius: 5px;
+}
+.css {
+  width: 70%;
+  background-color: #2965f1;
+  border-radius: 5px;
+}
+.js {
+  width: 30%;
+  background-color: yellow;
+  border-radius: 5px;
+}
+.jsn {
+  width: 80%;
+  background-color: #323330;
+  border-radius: 5px;
+}
+.nodejs {
+  width: 85%;
+  background-color: #3c873a;
+  border-radius: 5px;
+  border-radius: 5px;
+}
+.reactjs {
+  width: 40%;
+  background-color: #61dbfb;
+  border-radius: 5px;
+}
+.mongodb {
+  width: 40%;
+  background-color: #3f3e42;
+  border-radius: 5px;
+}
+
+@keyframes html {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes css {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+@keyframes js {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 30%;
+  }
+}
+@keyframes jsn {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes nodejs {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 85%;
+  }
+}
+@keyframes reactjs {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 40%;
+  }
+}
+@keyframes mongodb {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 40%;
+  }
+}
+
+.html {
+  width: 80%;
+  background-color: #f06529;
+  animation-name: html;
+  animation-duration: 2s;
+}
+
+.css {
+  width: 70%;
+  background-color: #2965f1;
+  animation-name: css;
+  animation-duration: 2s;
+}
+
+.js {
+  width: 30%;
+  background-color: yellow;
+  animation-name: js;
+  animation-duration: 2s;
+}
+.jsn {
+  width: 80%;
+  background-color: yellow;
+  animation-name: jsn;
+  animation-duration: 2s;
+}
+
+.nodejs {
+  width: 85%;
+  background-color: #3c873a;
+  animation-name: nodejs;
+  animation-duration: 2s;
+}
+.reactjs {
+  width: 40%;
+  background-color: #61dbfb;
+  animation-name: reactjs;
+  animation-duration: 2s;
+}
+.mongodb {
+  width: 40%;
+  background-color: #3f3e42;
+  animation-name: mongodb;
+  animation-duration: 2s;
+}
+
+@media (max-width: 1300px) {
+  .skills-section .skills-bar.flex .skills-box {
+    width: 15rem;
+  }
+}
+@media (max-width: 1000px) {
+  .skills-section .skills-bar.flex {
+    flex-direction: column;
+    align-items: center;
+  }
+  .skills-section .skills-bar.flex .skills-box {
+    margin: 1rem;
+  }
+}

@@ -1,0 +1,112 @@
+/* Contents
+  1. Title
+  2. Form
+  3. Image
+  4. Responsive Design
+*/
+
+section.contact .icon-envelope {
+  color: var(--subtitle);
+  margin-right: 0.9rem;
+  font-size: 2rem;
+}
+
+/* 1. Title */
+section.contact .title {
+  font-size: 2.2rem;
+  color: var(--title);
+  margin-bottom: 1rem;
+}
+section.contact .subtitle {
+  color: var(--subtitle);
+  margin-bottom: 2rem;
+}
+
+/* 2. Form */
+section.contact label {
+  color: var(--subtitle);
+}
+section.contact input,
+section.contact textarea {
+  all: unset;
+  background-color: var(--bg-form);
+  color: var(--color-form);
+  border: 1px solid rgb(63, 63, 70);
+  width: 15rem;
+  padding: 0.5rem;
+  margin-left: 1rem;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  transition: 0.25s;
+  &:focus {
+    border: 1px solid var(--blue);
+  }
+  &:hover {
+    border: 1px solid var(--blue);
+  }
+}
+section.contact textarea {
+  min-height: 10rem;
+  resize: vertical;
+}
+section.contact .submit {
+  background-color: rgba(36, 37, 46, 1);
+  text-align: center;
+  padding: 0.8rem 1.5rem;
+  margin-top: 1.8rem;
+  border-radius: 10px;
+  border: 1px solid rgb(63, 63, 70);
+  transition: 0.25s;
+  &:hover {
+    border: 1px solid var(--blue);
+  }
+}
+
+/* 3. Image */
+section.contact .contact-image {
+  width: 20rem;
+}
+@keyframes example {
+  0%   {top: 0px;}
+  50%  {top: 20px;}
+  100% {top: 0px;}
+}
+.contact-image {
+  position: relative;
+  animation-name: example;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+/* 4. Responsive Design */
+@media (max-width: 1350px) {
+  section.contact .contact-image {
+    width: 17rem;
+  }
+}
+@media (max-width: 1200px) {
+  section.contact .contact-image {
+    width: 14rem;
+  }
+}
+@media (max-width: 1100px) {
+  section.contact .contact-image {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  section.contact form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  section.contact form div.flex {
+    flex-direction: column;
+  }
+  section.contact input,
+  section.contact textarea {
+    width: 100%;
+    margin-left: 0;
+    padding: 0.5rem 0;
+    margin-top: 1rem;
+  }
+}
