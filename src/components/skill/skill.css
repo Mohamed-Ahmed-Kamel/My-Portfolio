@@ -13,30 +13,30 @@
   width: 100%;
   padding: 1rem;
 }
-.skills-section .skills-bar.flex h2 {
+.skills-section h2 {
   color: var(--title);
   text-align: center;
 }
-.skills-section .skills-bar.flex p {
+.skills-section p {
   color: var(--title);
   font-size: 1.2rem;
   margin-top: 1rem;
   margin-bottom: 0.2rem;
 }
-.skills-section .skills-bar.flex .skills-box {
+.skills-section .skills-box {
   border: 1px solid var(--border);
   border-radius: 10px;
   background-color: var(--bg-header);
   padding: 1rem;
   width: 20rem;
 }
-.skills-section .skills-bar.flex .skill-container {
+.skills-section .skill-container {
   width: 100%;
   background-color: var(--border);
   border-radius: 5px;
 }
 
-.skills-section .skills-bar.flex .skills {
+.skills-section .skills {
   text-align: right;
   padding: 3px;
   color: black;
@@ -77,6 +77,11 @@
 .mongodb {
   width: 40%;
   background-color: #3f3e42;
+  border-radius: 5px;
+}
+.oop {
+  width: 40%;
+  background-color: green;
   border-radius: 5px;
 }
 
@@ -139,6 +144,14 @@
     width: 40%;
   }
 }
+@keyframes oop {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 40%;
+  }
+}
 
 .html {
   width: 80%;
@@ -185,9 +198,15 @@
   animation-name: mongodb;
   animation-duration: 2s;
 }
+.oop {
+  width: 40%;
+  background-color: yellow;
+  animation-name: oop;
+  animation-duration: 2s;
+}
 
 @media (max-width: 1300px) {
-  .skills-section .skills-bar.flex .skills-box {
+  .skills-section .skills-box {
     width: 15rem;
   }
 }
@@ -196,7 +215,7 @@
     flex-direction: column;
     align-items: center;
   }
-  .skills-section .skills-bar.flex .skills-box {
+  .skills-section .skills-box {
     margin: 1rem;
   }
 }

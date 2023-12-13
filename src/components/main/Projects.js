@@ -6,18 +6,28 @@ export const projectsDB = [
         github: "https://github.com/Mohamed-Ahmed-Kamel/Pharmacy_Store",
         link: "",
         more: "",
-        lang: "html - css - js - nodeJS",
+        lang: "HTML - CSS - JS - NodeJS",
         category: ["node"],
     },
     {
-        name: "Online Store Project",
+        name: "Online Store Back",
         image: "e-commerce.jpg",
         paragraph: "This E-Commerce API is a RESTful API built with Express and MongoDB. It allows users to manage products, blogs, product categories, blog categories, brands, coupons, colors, and enquiries.",
         github: "",
         link: "",
         more: "",
-        lang: "nodeJS",
+        lang: "NodeJS",
         category: ["node"],
+    },
+    {
+        name: "Online Store Front",
+        image: "e-commerce-home.png",
+        paragraph: "This E-Commerce App Is The Front-End Of Online Store Back.",
+        github: "",
+        link: "",
+        more: "",
+        lang: "React",
+        category: ["react"],
     },
     {
         name: "Realtime Pizza Order",
@@ -26,7 +36,7 @@ export const projectsDB = [
         github: "https://github.com/Mohamed-Ahmed-Kamel/Realtime_pizza_order",
         link: "",
         more: "",
-        lang: "html - css - js - nodeJS - tailwind",
+        lang: "HTML - CSS - JS - NodeJS - Tailwind",
         category: ["tailwind", "node"],
     },
     {
@@ -36,7 +46,7 @@ export const projectsDB = [
         github: "https://github.com/Mohamed-Ahmed-Kamel/Product-Management-Project",
         link: "https://mohamed-ahmed-kamel.github.io/Product-Management-Project/",
         more: "",
-        lang: "html - css - js",
+        lang: "HTML - CSS - JS",
         category: ["js"],
     },
     {
@@ -46,7 +56,7 @@ export const projectsDB = [
         github: "https://github.com/Mohamed-Ahmed-Kamel/NodeJS-Tutorial-1",
         link: "",
         more: "",
-        lang: "html - css - js - nodeJS",
+        lang: "HTML - CSS - JS - NodeJS",
         category: ["node"],
     },
     {
@@ -56,7 +66,7 @@ export const projectsDB = [
         github: "https://github.com/Mohamed-Ahmed-Kamel/NodeJS-Tutorial-2",
         link: "",
         more: "",
-        lang: "nodeJS",
+        lang: "NodeJS",
         category: ["node"],
     },
     {
@@ -66,7 +76,7 @@ export const projectsDB = [
         github: "https://github.com/Mohamed-Ahmed-Kamel/My-Profile",
         link: "https://mohamed-ahmed-kamel.github.io/My-Profile/",
         more: "",
-        lang: "html - css - js",
+        lang: "HTML - CSS - JS",
         category: ["html"],
     },
     {
@@ -76,7 +86,7 @@ export const projectsDB = [
         github: "https://github.com/Mohamed-Ahmed-Kamel/weather-app",
         link: "",
         more: "",
-        lang: "html - css - js",
+        lang: "HTML - CSS - JS",
         category: ["js"],
     },
     {
@@ -86,7 +96,7 @@ export const projectsDB = [
         github: "https://github.com/Mohamed-Ahmed-Kamel/landing-page-Udacity",
         link: "https://mohamed-ahmed-kamel.github.io/landing-page-Udacity/#section1",
         more: "",
-        lang: "html - css - js",
+        lang: "HTML - CSS - JS",
         category: ["js"],
     },
 ];
@@ -94,5 +104,5 @@ export const buttons = [
     { name: "html & css", category: 'html' },
     { name: "js", category: 'js' },
     { name: "nodeJS", category: 'node' },
-    // { name: "reactJS", category: 'react' },
+    { name: "reactJS", category: 'react' },
 ];

@@ -30,7 +30,7 @@ function Skill() {
                     </div>
                 </div>
 
-                <div className="skills-box ">
+                <div className="skills-box">
                     <h2>Back-End</h2>
                     <div>
                         <p>Node.js</p>
@@ -45,6 +45,16 @@ function Skill() {
                         <div className="skill-container">
                             <div className="skills jsn">80%</div>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <h1>Other</h1>
+            <div className="skills-box-other">
+                <div>
+                    <p>OOP</p>
+                    <div className="skill-container">
+                        <div className="skills oop">40%</div>
                     </div>
                 </div>
             </div>
