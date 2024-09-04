@@ -8,24 +8,44 @@ function Skill() {
                 <div className="skills-box">
                     <h2>Front-End</h2>
                     <div>
-                        <p>HTML</p>
                         <div className="skill-container">
-                            <div className="skills html">80%</div>
+                            <div className="title">
+                                <img width={30} src={"/images/html.png"} />
+                                {/*<p>HTML</p>*/}
+                            </div>
+                            <div className="skill-counter">
+                                <div className="skills html">90%</div>
+                            </div>
                         </div>
 
-                        <p>CSS</p>
                         <div className="skill-container">
-                            <div className="skills css">70%</div>
+                            <div className="title">
+                                <img width={30} src={"/images/css.png"} />
+                                {/*<p>CSS</p>*/}
+                            </div>
+                            <div className="skill-counter">
+                                <div className="skills css">70%</div>
+                            </div>
                         </div>
 
-                        <p>JavaScript</p>
                         <div className="skill-container">
-                            <div className="skills js">30%</div>
+                            <div className="title">
+                                <img width={30} src={"/images/js.png"} />
+                                {/*<p>JS</p>*/}
+                            </div>
+                            <div className="skill-counter">
+                                <div className="skills js">50%</div>
+                            </div>
                         </div>
 
-                        <p>React.js</p>
                         <div className="skill-container">
-                            <div className="skills reactjs">40%</div>
+                            <div className="title">
+                                <img width={30} src={"/images/react.png"} />
+                                {/*<p>React.js</p>*/}
+                            </div>
+                            <div className="skill-counter">
+                                <div className="skills reactjs">70%</div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -33,28 +53,65 @@ function Skill() {
                 <div className="skills-box">
                     <h2>Back-End</h2>
                     <div>
-                        <p>Node.js</p>
                         <div className="skill-container">
-                            <div className="skills nodejs">85%</div>
+                            <div className="title">
+                                <img width={30} src={"/images/node.png"} />
+                                {/*<p>Node.js</p>*/}
+                            </div>
+                            <div className="skill-counter">
+                                <div className="skills nodejs">85%</div>
+                            </div>
                         </div>
-                        <p>MongoDb</p>
+
                         <div className="skill-container">
-                            <div className="skills mongodb">40%</div>
+                            <div className="title">
+                                <img width={30} src={"/images/mongodb.png"} />
+                                {/*<p>MongoDb</p>*/}
+                            </div>
+                            <div className="skill-counter">
+                                <div className="skills mongodb">40%</div>
+                            </div>
                         </div>
-                        <p>JavaScript</p>
+
                         <div className="skill-container">
-                            <div className="skills jsn">80%</div>
+                            <div className="title">
+                                <img width={30} src={"/images/js.png"} />
+                                {/*<p>JavaScript</p>*/}
+                            </div>
+                            <div className="skill-counter">
+                                <div className="skills jsn">80%</div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <br />
+
+            <hr />
+            
             <h1>Other</h1>
             <div className="skills-box-other">
-                <div>
-                    <p>OOP</p>
-                    <div className="skill-container">
-                        <div className="skills oop">40%</div>
+                <div className="card">
+                    <div className="card-header">
+                        <div className="image">
+                            <img width={200} src={"/images/oop.png"} />
+                        </div>
+                    </div>
+                    <div className="card-body">
+                        <div className="skill-counter">
+                            <div className="skills oop">90%</div>
+                        </div>
+                    </div>
+                </div>
+                <div className="card">
+                    <div className="card-header">
+                        <div className="image">
+                            <img width={200} src={"/images/dsa.png"} />
+                        </div>
+                    </div>
+                    <div className="card-body">
+                        <div className="skill-counter">
+                            <div className="skills dsa">90%</div>
+                        </div>
                     </div>
                 </div>
             </div>

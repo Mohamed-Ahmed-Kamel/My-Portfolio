@@ -1,3 +1,10 @@
+/*
+  Front-Back Skills
+  Other Skills
+  Animation
+*/
+
+/* Front-Back Skills */
 .skills-section {
   padding: 1rem;
 }
@@ -17,11 +24,18 @@
   color: var(--title);
   text-align: center;
 }
-.skills-section p {
+.skills-section .skill-container {
+  margin-bottom: 0.5rem;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.skills-section .title {
+  display: flex;
   color: var(--title);
   font-size: 1.2rem;
-  margin-top: 1rem;
-  margin-bottom: 0.2rem;
+  margin-right: 1rem;
 }
 .skills-section .skills-box {
   border: 1px solid var(--border);
@@ -30,7 +44,7 @@
   padding: 1rem;
   width: 20rem;
 }
-.skills-section .skill-container {
+.skills-section .skill-counter {
   width: 100%;
   background-color: var(--border);
   border-radius: 5px;
@@ -43,8 +57,58 @@
   font-weight: 500;
 }
 
+/* Other Skills */
+.skills-box-other {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+.skills-box-other .card {
+  background-color: #101010;
+  width: 25%;
+  border-radius: 10px;
+  box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.1);
+  margin: 10px 0;
+  padding: 20px;
+  transition:
+    box-shadow 0.3s ease-in-out,
+    transform 0.3s ease-in-out;
+  &:hover {
+    box-shadow: 0 4px 8px var(--blue);
+    transform: translateY(-5px);
+    transition:
+      box-shadow 0.3s ease-in-out,
+      transform 0.3s ease-in-out;
+    cursor: pointer;
+    .image img {
+      transform: scale(1.1);
+      transition: transform 0.3s ease-in-out;
+    }
+  }
+}
+.skills-box-other .card-header {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.skills-box-other .image img {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.skills-box-other .card-body {
+  display: flex;
+  align-items: center;
+}
+
+/* Animation */
 .html {
-  width: 80%;
+  width: 90%;
   background-color: #f06529;
   border-radius: 5px;
 }
@@ -54,7 +118,7 @@
   border-radius: 5px;
 }
 .js {
-  width: 30%;
+  width: 50%;
   background-color: yellow;
   border-radius: 5px;
 }
@@ -70,7 +134,7 @@
   border-radius: 5px;
 }
 .reactjs {
-  width: 40%;
+  width: 70%;
   background-color: #61dbfb;
   border-radius: 5px;
 }
@@ -79,8 +143,19 @@
   background-color: #3f3e42;
   border-radius: 5px;
 }
+.skills.oop {
+  color: rgb(39, 39, 42);
+}
+.skills.dsa {
+  color: rgb(39, 39, 42);
+}
 .oop {
-  width: 40%;
+  width: 90%;
+  background-color: green;
+  border-radius: 5px;
+}
+.dsa {
+  width: 90%;
   background-color: green;
   border-radius: 5px;
 }
@@ -90,7 +165,7 @@
     width: 0;
   }
   100% {
-    width: 80%;
+    width: 90%;
   }
 }
 
@@ -108,7 +183,7 @@
     width: 0;
   }
   100% {
-    width: 30%;
+    width: 50%;
   }
 }
 @keyframes jsn {
@@ -133,7 +208,7 @@
     width: 0;
   }
   100% {
-    width: 40%;
+    width: 70%;
   }
 }
 @keyframes mongodb {
@@ -149,12 +224,20 @@
     width: 0;
   }
   100% {
-    width: 40%;
+    width: 90%;
+  }
+}
+@keyframes dsa {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
   }
 }
 
 .html {
-  width: 80%;
+  width: 90%;
   background-color: #f06529;
   animation-name: html;
   animation-duration: 2s;
@@ -168,7 +251,7 @@
 }
 
 .js {
-  width: 30%;
+  width: 50%;
   background-color: yellow;
   animation-name: js;
   animation-duration: 2s;
@@ -186,28 +269,39 @@
   animation-name: nodejs;
   animation-duration: 2s;
 }
+
 .reactjs {
-  width: 40%;
+  width: 70%;
   background-color: #61dbfb;
   animation-name: reactjs;
   animation-duration: 2s;
 }
 .mongodb {
   width: 40%;
-  background-color: #3f3e42;
+  background-color: #3c873a;
   animation-name: mongodb;
   animation-duration: 2s;
 }
 .oop {
-  width: 40%;
-  background-color: yellow;
+  width: 90%;
+  background-color: #fdfdfd;
   animation-name: oop;
+  animation-duration: 2s;
+}
+.dsa {
+  width: 90%;
+  background-color: #fdfdfd;
+  animation-name: dsa;
   animation-duration: 2s;
 }
 
 @media (max-width: 1300px) {
   .skills-section .skills-box {
     width: 15rem;
+  }
+  .skills-box-other .card {
+    width: 30%;
+    padding: 10px;
   }
 }
 @media (max-width: 1000px) {
@@ -217,5 +311,9 @@
   }
   .skills-section .skills-box {
     margin: 1rem;
+  }
+  .skills-box-other .card {
+    width: 40%;
+    padding: 10px;
   }
 }

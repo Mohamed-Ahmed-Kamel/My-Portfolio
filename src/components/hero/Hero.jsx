@@ -11,7 +11,7 @@ function Hero() {
                 </div>
 
                 <h1 className='title'>Back-End Developer</h1>
-                <p className='subtitle'>I can solve problems easilys.</p>
+                <p className='subtitle'>I can solve problems easily.</p>
 
                 <div className='icons flex'>
                     <a className='icon icon-linkedin' href="https://www.linkedin.com/in/mohamed-ahmed-b1b597255/" target="_blank"></a>
