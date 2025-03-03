@@ -7,8 +7,8 @@ function About() {
                 <img src="/me.jpg" alt="" />
             </div>
             <div>
-                <h1>Hi I'm <span>Mohamed Ahmed</span></h1>
-                <p>As a backend web developer, I build robust and scalable server-side solutions. With my expertise in Node.js, I have experience in developing and maintaining APIs, managing databases, and ensuring the smooth operation of web applications. I am passionate about using my skills to create efficient and user-friendly experiences for clients and end-users alike.</p>
+                <h1>Hi I'm <span>Mohamed Ahmed Kamel</span></h1>
+                <p>I turn ideas into dynamic, user-centric applications by bridging the gap between elegant interfaces and robust backend systems. With expertise spanning the entire stack — from crafting pixel-perfect ReactJS UIs to engineering high-performance APIs with Node.js, Express, and NestJS — I build solutions that are as efficient as they are impactful.</p>
             </div>
         </div>
     )

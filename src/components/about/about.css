@@ -20,15 +20,15 @@
 }
 .about h1 {
   color: var(--title);
-  text-align: center;
+  text-align: start;
   font-size: 2.5rem;
   margin-bottom: 1rem;
   border-bottom: 1px solid;
 }
 .about span {
   color: var(--blue);
-  font-family: 'Mochiy Pop P One', sans-serif; 
-  font-size: 2.3rem;
+  font-family: 'Lato', sans-serif; 
+  font-size: 2rem;
 }
 .about p {
   color: var(--subtitle);
@@ -99,10 +99,16 @@
     width: 100%;
     font-size: 1.2rem;
   }
+  .about h1 {
+    text-align: center;
+  }
 }
 @media (max-width: 400px) {
   .about img {
     width: 14rem;
+  }
+  .about h1 {
+    text-align: center;
   }
   .about p {
     font-size: 0.9rem;

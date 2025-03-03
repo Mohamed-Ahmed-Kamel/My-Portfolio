@@ -21,6 +21,14 @@ section.hero .avatar {
   border: 1px solid darkorange;
   padding: 1px;
   box-shadow: 1px 1px 10px orange;
+  transition: 0.3s;
+  &:hover {
+    box-shadow: 0 0 20px 0 darkorange;
+    border: 1.5px solid darkorange;
+    .about span {
+      color: darkorange;
+    }
+  }
 }
 section.hero .icon-verified {
   color: var(--blue);

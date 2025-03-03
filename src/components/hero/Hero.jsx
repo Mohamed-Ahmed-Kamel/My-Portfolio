@@ -10,8 +10,8 @@ function Hero() {
                     <div className='icon-verified'></div>
                 </div>
 
-                <h1 className='title'>Back-End Developer</h1>
-                <p className='subtitle'>I can solve problems easily.</p>
+                <h1 className='title'>Full Stack Developer</h1>
+                <p className='subtitle'>Bridging Frontend Beauty with Backend Brains.</p>
 
                 <div className='icons flex'>
                     <a className='icon icon-linkedin' href="https://www.linkedin.com/in/mohamed-ahmed-b1b597255/" target="_blank"></a>
